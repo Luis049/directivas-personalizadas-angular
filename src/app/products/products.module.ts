@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { ProductsRoutingModule } from './products-routing.module';
 import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { ProductsRoutingModule } from './products-routing.module';
 
 import { SharedModule } from '../shared/shared.module';
 
@@ -20,6 +20,7 @@ import { SharedModule } from '../shared/shared.module';
     ProductsRoutingModule,
     ReactiveFormsModule,
     SharedModule,
+
   ]
 })
 export class ProductsModule { }
